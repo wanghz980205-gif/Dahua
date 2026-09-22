@@ -11,13 +11,15 @@
 | 外部型号 | External Model | 对客户、规格书的产品族型号 |
 | SKU | 无独立列 | 库存用料号，下单用内部型号 |
 
-详细规则见 [`docs/映射关系0922分析.md`](docs/映射关系0922分析.md)。
+详细规则见 [`docs/映射关系0922分析.md`](docs/映射关系0922分析.md)。  
+GKS 产品资料目录见 [`docs/gks-category-7291.md`](docs/gks-category-7291.md)（需登录，本环境拿不到清单）。
 
 ## 查询
 
 ```bash
 python3 -m src.dahua_identity lookup 1.0.01.04.31634-0016
 python3 -m src.dahua_identity lookup DH-IPC-HDW8441X-3D
+python3 -m src.gks_catalog Datasheet_DH-IPC-HDW8441X-3D_EN.pdf
 python3 -m src.dahua_identity stats
 ```
 

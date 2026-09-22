@@ -11,6 +11,7 @@ from src.dahua_identity import (
     load_mappings,
     part_family,
 )
+from src.gks_catalog import extract_models, match_filename
 
 
 class DahuaIdentityTests(unittest.TestCase):
@@ -57,6 +58,18 @@ class DahuaIdentityTests(unittest.TestCase):
 
     def test_discount_is_not_a_camera(self):
         self.assertEqual(part_family("1.4.01.07.00001"), "Discount 折扣虚项")
+
+    def test_gks_filename_extracts_external_model(self):
+        models = extract_models("Datasheet_DH-IPC-HDW8441X-3D_EN.pdf")
+        self.assertEqual(models, ["DH-IPC-HDW8441X-3D"])
+
+    def test_gks_filename_maps_to_part_numbers(self):
+        models, rows = match_filename(
+            self.index, "Datasheet_DH-IPC-HDW8441X-3D_EN.pdf"
+        )
+        self.assertEqual(models, ["DH-IPC-HDW8441X-3D"])
+        self.assertTrue(rows)
+        self.assertTrue(all(r.external_model == "DH-IPC-HDW8441X-3D" for r in rows))
 
 
 if __name__ == "__main__":
