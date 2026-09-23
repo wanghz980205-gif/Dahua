@@ -16,7 +16,7 @@ GKS 产品资料目录见 [`docs/gks-category-7291.md`](docs/gks-category-7291.m
 
 2026 交通车载方案见 [`docs/2026-DHIA-Transportation.md`](docs/2026-DHIA-Transportation.md)，BOM 对照 [`data/dhia-transportation-bom.csv`](data/dhia-transportation-bom.csv)。
 
-法国分公司与设计院：[`docs/dahua-france-gtm.md`](docs/dahua-france-gtm.md)、[`docs/insight-ingerop-assystem.md`](docs/insight-ingerop-assystem.md)。
+法国分公司与设计院：[`docs/dahua-france-gtm.md`](docs/dahua-france-gtm.md)、[`docs/insight-ingerop-assystem.md`](docs/insight-ingerop-assystem.md)、官方生态图解读 [`docs/france-be-ecosystem.md`](docs/france-be-ecosystem.md)。
 
 ## 查询
 
