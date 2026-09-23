@@ -59,6 +59,14 @@ class DahuaIdentityTests(unittest.TestCase):
     def test_discount_is_not_a_camera(self):
         self.assertEqual(part_family("1.4.01.07.00001"), "Discount 折扣虚项")
 
+    def test_dae_part_family(self):
+        self.assertEqual(part_family("1.0.01.02.11805"), "DAE 车载/移动监控")
+
+    def test_mxvr8212_lookup(self):
+        result = self.index.lookup("MXVR8212", limit=10)
+        self.assertTrue(result.rows)
+        self.assertTrue(any("MXVR8212" in r.internal_model for r in result.rows))
+
     def test_gks_filename_extracts_external_model(self):
         models = extract_models("Datasheet_DH-IPC-HDW8441X-3D_EN.pdf")
         self.assertEqual(models, ["DH-IPC-HDW8441X-3D"])

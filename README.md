@@ -14,6 +14,8 @@
 详细规则见 [`docs/映射关系0922分析.md`](docs/映射关系0922分析.md)。  
 GKS 产品资料目录见 [`docs/gks-category-7291.md`](docs/gks-category-7291.md)（需登录，本环境拿不到清单）。
 
+2026 交通车载方案见 [`docs/2026-DHIA-Transportation.md`](docs/2026-DHIA-Transportation.md)，BOM 对照 [`data/dhia-transportation-bom.csv`](data/dhia-transportation-bom.csv)。
+
 ## 查询
 
 ```bash

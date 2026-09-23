@@ -1,0 +1,12 @@
+role,ppt_model,external_model,internal_model,part_no,notes
+360_host,PANA-S02-04,DHI-DAE-PANA-S02,DHI-DAE-PANA-S02-04,1.0.01.02.11672,4-way surround; 8-way is 1.0.01.02.11673
+surround_camera,DAE-CVS5122-M12,DHI-DAE-CSV5122-M12-CVI,DHI-DAE-CSV5122-M12-0100B-CVI,1.0.01.02.11790,PPT says CVS; ERP is CSV
+mobile_nvr,MXVR8212,DHI-MXVR8212-GFWI,DHI-DAE-MXVR8212-GFWI,1.0.01.02.11805,GFWI = GPS+4G+WiFi
+mobile_nvr_v2,MXVR8212,DHI-DAE-MXVR8212-GFWI,DHI-DAE-MXVR8212-GFWI(2.0),1.0.01.02.12346-0001,hardware 2.0
+people_counting_M,IPC-HMW8441X-M,DH-IPC-HMW8441XP-M-DAE-0200B-E,DH-IPC-HMW8441XP-M-DAE-0200B-E,1.0.01.02.11406,dual-lens 2.0mm
+people_counting_M12,IPC-HMW8441X-M12,DH-IPC-HMW8441XP-M12-DAE-0200B-E,DH-IPC-HMW8441XP-M12-DAE-0200B-E,1.0.01.02.11403-9002,M12 connector
+driver_assist_md,MD 02,MD02,MD02,1.0.01.02.10779,driver assist monitor
+screen_7_e,7 Inch Screen,DHI-MLCDF7-E,DHI-DAE-MLCDF7-E,1.0.01.02.11523-9002,candidate 7-inch screen
+screen_7_t,7 Inch Screen,DHI-MLCDF7-T,DHI-DAE-MLCDF7-T,1.0.01.02.11525-9004,candidate 7-inch screen
+face_server,IVSS-M,DHI-IVSS5108/7108/7112…,(select by channel),1.0.01.23.*,center-side; not a single SKU
+egypt_nvr,MNVR,DHI-MNVR4104-GFWI,DHI-DAE-MNVR4104-GFWI,1.0.01.02.11125,family; pick 4/8ch
