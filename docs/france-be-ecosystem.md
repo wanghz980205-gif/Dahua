@@ -27,10 +27,10 @@
 | 模块 | 现状 |
 |---|---|
 | Vidéoprotection 视频保护 | 有 0922 + 零售 IPC/NVR 常识；法国 CCTP 段落还没有 |
-| Contrôle d'accès 门禁 | **未学法国可售型号/料号** |
-| Anti-intrusion 入侵报警 | **未学** |
+| Contrôle d'accès 门禁 | 已学 GKS 基础包 + 2025 目录 + 0922 `1.0.01.25`。CCTP 草稿 [`cctp-module-acces.md`](cctp-module-acces.md)。缺法国可售过滤和 DESFire |
+| Anti-intrusion 入侵报警 | 目录末尾有 ARC/ARD 彩页，**不算学完**；等 Alarm zip |
 | IA et analyse 智能分析 | 车载 DSM/ADAS/客流有；场站/城市 AI 未做成设计院材料 |
-| Plateforme et stockage 平台与存储 | DSS/IVSS 只在车载 PPT 出现，无法国平台规格 |
+| Plateforme et stockage 平台与存储 | DSS Pro 在门禁目录里有容量（500 终端/1000 门），仍缺 DSS 资料包 |
 
 设计院要的是这五块的 **法语功能描述**，不是车载 27 页 PPT。
 

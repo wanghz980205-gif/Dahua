@@ -38,9 +38,11 @@ PART_FAMILY = {
     "1.0.01.12": "HAC 同轴摄像机",
     "1.0.01.07": "SD 球机",
     "1.0.01.15": "VTO/VTH 对讲",
+    "1.0.01.25": "门禁/考勤 Access Control",
     "1.0.01.34": "TPC 热成像",
     "1.0.01.09": "ITC 智能交通",
     "1.0.01.20": "其它成品",
+    "1.2.01.27": "电锁/门禁配件",
     "1.0.99.44": "PFA/PFB 支架配件",
     "1.4.01.07": "Discount 折扣虚项",
 }
@@ -81,7 +83,11 @@ def classify_identifier(value: str) -> str:
     )
     if extra:
         return "internal_model"
-    if re.search(r"\b(IPC|HAC|NVR|XVR|HCVR|TPC|VTO|VTH|SD)\b", text, re.I):
+    if re.search(
+        r"(?:DH[I]?-)?(?:IPC|HAC|NVR|XVR|HCVR|TPC|VTO|VTH|ITC|SD|ASI|ASC|ASR|ASA|ASM|ASG|ASF|ARC|ARD)",
+        text,
+        re.I,
+    ):
         return "external_or_internal_model"
     return "model_or_other"
 

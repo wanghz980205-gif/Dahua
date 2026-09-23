@@ -15,7 +15,7 @@ from src.dahua_identity import (
 )
 
 MODEL_RE = re.compile(
-    r"(?:DH[I]?-)?(?:IPC|HAC|NVR|XVR|HCVR|TPC|VTO|VTH|ITC|SD)[A-Z0-9\-]+",
+    r"(?:DH[I]?-)?(?:IPC|HAC|NVR|XVR|HCVR|TPC|VTO|VTH|ITC|SD|ASI|ASC|ASR|ASA|ASM|ASG|ASF|ARC|ARD)[A-Z0-9\-]+",
     re.I,
 )
 

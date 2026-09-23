@@ -79,6 +79,22 @@ class DahuaIdentityTests(unittest.TestCase):
         self.assertTrue(rows)
         self.assertTrue(all(r.external_model == "DH-IPC-HDW8441X-3D" for r in rows))
 
+    def test_access_control_part_family(self):
+        self.assertEqual(part_family("1.0.01.25.11076"), "门禁/考勤 Access Control")
+        self.assertEqual(part_family("1.2.01.27.10287"), "电锁/门禁配件")
+
+    def test_asi_lookup(self):
+        result = self.index.lookup("ASI6213J-MW", limit=10)
+        self.assertTrue(result.rows)
+        self.assertTrue(any("ASI6213J-MW" in r.internal_model for r in result.rows))
+        self.assertTrue(result.rows[0].part_no.startswith("1.0.01.25"))
+
+    def test_gks_filename_extracts_access_model(self):
+        models = extract_models("DHI-ASI6214J-MFW_1.0.01.25.11077_MTBF Report.pdf")
+        self.assertIn("DHI-ASI6214J-MFW", models)
+        models2 = extract_models("Datasheet_DHI-ASC2204C-S_EN.pdf")
+        self.assertEqual(models2, ["DHI-ASC2204C-S"])
+
 
 if __name__ == "__main__":
     unittest.main()

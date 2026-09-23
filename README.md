@@ -18,6 +18,8 @@ GKS 产品资料目录见 [`docs/gks-category-7291.md`](docs/gks-category-7291.m
 
 法国分公司与设计院：[`docs/dahua-france-gtm.md`](docs/dahua-france-gtm.md)、[`docs/insight-ingerop-assystem.md`](docs/insight-ingerop-assystem.md)、官方生态图解读 [`docs/france-be-ecosystem.md`](docs/france-be-ecosystem.md)。
 
+门禁（GKS Access Control 包）：[`docs/gks-access-control.md`](docs/gks-access-control.md)，法语 CCTP 段 [`docs/cctp-module-acces.md`](docs/cctp-module-acces.md)。
+
 学习方法：[`docs/how-we-learn.md`](docs/how-we-learn.md)。A 类拜访卡：[`docs/target-cards-grands-groupes.md`](docs/target-cards-grands-groupes.md)。
 
 ## 查询
@@ -26,6 +28,8 @@ GKS 产品资料目录见 [`docs/gks-category-7291.md`](docs/gks-category-7291.m
 python3 -m src.dahua_identity lookup 1.0.01.04.31634-0016
 python3 -m src.dahua_identity lookup DH-IPC-HDW8441X-3D
 python3 -m src.gks_catalog Datasheet_DH-IPC-HDW8441X-3D_EN.pdf
+python3 -m src.dahua_identity lookup ASI6213J-MW
+python3 -m src.gks_catalog Datasheet_DHI-ASC2204C-S_EN.pdf
 python3 -m src.dahua_identity stats
 ```
 
@@ -33,6 +37,7 @@ python3 -m src.dahua_identity stats
 
 - `data/映射关系0922.xlsx` — 原始表
 - `data/mapping-0922.csv` — 去重后的查询表
+- `data/gks-access-bom.csv` — 门禁目录型号对照 0922
 
 ```bash
 python3 -m unittest tests/test_dahua_identity.py
