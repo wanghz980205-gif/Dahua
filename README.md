@@ -18,6 +18,8 @@ GKS 产品资料目录见 [`docs/gks-category-7291.md`](docs/gks-category-7291.m
 
 法国分公司与设计院：[`docs/dahua-france-gtm.md`](docs/dahua-france-gtm.md)、[`docs/insight-ingerop-assystem.md`](docs/insight-ingerop-assystem.md)、官方生态图解读 [`docs/france-be-ecosystem.md`](docs/france-be-ecosystem.md)。
 
+学习方法：[`docs/how-we-learn.md`](docs/how-we-learn.md)。A 类拜访卡：[`docs/target-cards-grands-groupes.md`](docs/target-cards-grands-groupes.md)。
+
 ## 查询
 
 ```bash

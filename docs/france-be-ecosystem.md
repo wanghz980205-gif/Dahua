@@ -64,13 +64,15 @@ A 锁大项目 CCTP；B 锁安防专篇；C 锁框架与公共采购；D 把零�
 ## ⑥ 图上点名的目标（除 Ingérop 外尚未逐家学）
 
 **A 大型工程集团**  
-Ingérop，Egis，Artelia，Setec，Systra，Oteis（图为 teïs/oteis）
+Ingérop，Egis，Artelia，Setec，Systra，Oteis（图为 teïs/oteis）  
+公开一页卡已起稿：[`target-cards-grands-groupes.md`](target-cards-grands-groupes.md)。学习顺序：[`how-we-learn.md`](how-we-learn.md)。
 
 **B 安防专业设计院**  
 Tandem Sécurité，E-Conex，Galpha，Svitec，LET Consulting，Sûreté Consulting
 
 **C 采购中心 / 公共市场**  
-UGAP，CANUT，SRC Solution，SDCT，ORIA，SETICS，Althing，BPF（及图中另一公共采购标识）
+UGAP，CANUT，SRC Solution，SDCT，ORIA，SETICS，Althing，BPF（及图中另一公共采购标识）  
+UGAP 电子安防续框为预告程序 **26U021**（预计 2027-06 发布、2028-03 开售），不是 2027 立刻投标。现框履约仍走已入围集成商。
 
 **D 区域设计院**  
 Alternet，Amocom，SOC Ingénierie，ProConsulting，Ambre，Protek AMO
