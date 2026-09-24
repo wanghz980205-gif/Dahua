@@ -1,0 +1,63 @@
+role,catalog_model,external_model,internal_model,part_no,part_family,in_0922,notes
+standalone_face,ASI6213J-MW,DHI-ASI6213J-MW,DHI-ASI6213J-MW,1.0.01.25.11076,门禁/考勤 Access Control,yes,"catalog p34; FACT 4.3"" 6k faces IC Wi-Fi IP65"
+standalone_face,ASI6214J-MFW,DHI-ASI6214J-MFW,DHI-ASI6214J-MFW,1.0.01.25.11077,门禁/考勤 Access Control,yes,"catalog p34; FACT 4.3"" 6k faces+fingerprint IC"
+standalone_face,ASI3214A-W,DHI-ASI3214A-W,DHI-ASI3214A-W,1.0.01.25.11699-0020,门禁/考勤 Access Control,yes,"catalog p35; FACT 4.3"" 3k faces + 5k FP Wi-Fi"
+standalone_face,ASI3213A-W,DHI-ASI3213A-W,DHI-ASI3213A-W,1.0.01.25.11698-0017,门禁/考勤 Access Control,yes,"catalog p35; FACT 4.3"" 3k faces Wi-Fi"
+standalone_face,ASI3223A,DHI-ASI3223A,DHI-ASI3223A,1.0.01.25.11697,门禁/考勤 Access Control,yes,"catalog p35; FACT 4.3"" 2k faces no card reader"
+standalone_face,ASI3213G-MW,DHI-ASI3213G-MW,DHI-ASI3213G-MW,1.0.01.25.11054,门禁/考勤 Access Control,yes,"catalog p35; FACT 4.3"" 1.5k faces Wi-Fi"
+standalone_face,ASI7213X,DHI-ASI7213X,DHI-ASI7213X-V1,1.0.01.25.11281,门禁/考勤 Access Control,yes,"catalog p36; 7"" 100k faces IP65"
+standalone_face,ASI7213Y-V3,DHI-ASI7213Y-V3,DHI-ASI7213Y-V3,1.0.01.25.10850,门禁/考勤 Access Control,yes,"catalog p36; 7"" 50k faces"
+standalone_face,ASI7214Y-V3,DHI-ASI7214Y-V3,DHI-ASI7214Y-V3,1.0.01.25.10852,门禁/考勤 Access Control,yes,"catalog p37; 7"" 50k faces + 10k FP"
+standalone_face,ASI8214Y-V3,DHI-ASI8214Y-V3,DHI-ASI8214Y-V3,1.0.01.25.10858,门禁/考勤 Access Control,yes,"catalog p37; 10"" 100k faces + 10k FP IP65"
+turnstile_module,ASI7223X-A,DHI-ASI7223X-A,DHI-ASI7223X-A-V1,1.0.01.25.11284,门禁/考勤 Access Control,yes,"catalog p37; 7"" turnstile face module 100k"
+temperature,ASI6213J-FT1,DHI-ASI6213J-FT1,DHI-ASI6213J-FT1,1.0.01.25.11405-9001,门禁/考勤 Access Control,yes,catalog p38; forehead temp + face 6k
+controller,ASC2202B-S,DHI-ASC2202B-S,DHI-ASC2202B-S,1.0.01.25.11022-0011,门禁/考勤 Access Control,yes,catalog p39; 2-door 1-way 100k users
+controller,ASC2202B-D,DHI-ASC2202B-D,DHI-ASC2202B-D,1.0.01.25.11025-0013,门禁/考勤 Access Control,yes,catalog p39; 2-door 2-way
+controller,ASC2204B-S,DHI-ASC2204B-S,DHI-ASC2204B-S,1.0.01.25.11028-9002,门禁/考勤 Access Control,yes,catalog p39; 4-door 1-way
+controller,ASC2202C-D,DHI-ASC2202C-D,DHI-ASC2202C-D,1.0.01.25.11411-9001,门禁/考勤 Access Control,yes,catalog mtbf; C series 2-door 2-way PoE candidate
+controller,ASC2202C-S,DHI-ASC2202C-S,DHI-ASC2202C-S,1.0.01.25.11409-9003,门禁/考勤 Access Control,yes,catalog mtbf; C series 2-door 1-way
+controller,ASC2204C-D,DHI-ASC2204C-D,DHI-ASC2204C-D,1.0.01.25.11415-9001,门禁/考勤 Access Control,yes,catalog mtbf; C series 4-door 2-way
+controller,ASC2204C-S,DHI-ASC2204C-S,DHI-ASC2204C-S,1.0.01.25.11413-9001,门禁/考勤 Access Control,yes,catalog poster; C series 4-door 1-way; 64-door poster
+controller,ASC2208C-S,DHI-ASC2208C-S,DHI-ASC2208C-S,1.0.01.25.11417-9002,门禁/考勤 Access Control,yes,catalog mtbf; C series 8-door 1-way
+controller,ASC3202B,DHI-ASC3202B,DHI-ASC3202B,1.0.01.25.11473-0005,门禁/考勤 Access Control,yes,catalog poster; Insider main/sub controller; 40-door poster
+reader,ASR1200E,DHI-ASR1200E,DHI-ASR1200E,1.0.01.25.10452-0030,门禁/考勤 Access Control,yes,catalog p42; Mullion IC reader
+reader,ASR1200E-D,DHI-ASR1200E-D,DHI-ASR1200E-D,1.0.01.25.10453-0023,门禁/考勤 Access Control,yes,catalog p42; Mullion ID reader
+reader,ASR1100B-V1,DHI-ASR1100B-V1,DHI-ASR1100B-V1,1.0.01.25.11672-0005,门禁/考勤 Access Control,yes,catalog p42; Slim IC reader
+reader,ASR1100B-D-V1,DHI-ASR1100B-D-V1,DHI-ASR1100B-D-V1,1.0.01.25.11674-9003,门禁/考勤 Access Control,yes,catalog p42; Slim ID reader
+reader,ASR1101M-V1,DHI-ASR1101M-V1,DHI-ASR1101M-V1,1.0.01.25.11661-9001,门禁/考勤 Access Control,yes,catalog p43; Metal keypad IC IK08
+reader,ASR1101M-D-V1,DHI-ASR1101M-D-V1,DHI-ASR1101M-D-V1,1.0.01.25.11663-0004,门禁/考勤 Access Control,yes,catalog p43; Metal keypad ID
+reader,ASR2200A,DHI-ASR2200A,DHI-ASR2200A,1.0.01.25.11183-0011,门禁/考勤 Access Control,yes,catalog p43; IC reader IP66
+reader,ASR2200A-D,DHI-ASR2200A-D,DHI-ASR2200A-D,1.0.01.25.11184-0009,门禁/考勤 Access Control,yes,catalog p43; ID reader IP66
+reader,ASR2201A,DHI-ASR2201A,DHI-ASR2201A,1.0.01.25.11187,门禁/考勤 Access Control,yes,catalog p43; IC keypad IP66
+reader,ASR2100A,DHI-ASR2100A,DHI-ASR2100A,1.0.01.25.11193-0007,门禁/考勤 Access Control,yes,catalog p43; IC reader IP66
+reader,ASR2101A,DHI-ASR2101A,DHI-ASR2101A,1.0.01.25.11198-0015,门禁/考勤 Access Control,yes,catalog p44; IC touch keypad IP66
+reader,ASR2101A-D,DHI-ASR2101A-D,DHI-ASR2101A-D,1.0.01.25.11199-0006,门禁/考勤 Access Control,yes,catalog p44; ID touch keypad
+reader,ASR2100A-ME,DHI-ASR2100A-ME,DHI-ASR2100A-ME,1.0.01.25.11237-9001,门禁/考勤 Access Control,yes,catalog p44; IC/ID combo
+reader,ASR2101A-ME,DHI-ASR2101A-ME,DHI-ASR2101A-ME,1.0.01.25.11240-0012,门禁/考勤 Access Control,yes,catalog p44; IC/ID keypad; 40-door poster
+reader,ASR2102A,DHI-ASR2102A,DHI-ASR2102A,1.0.01.25.11204-0010,门禁/考勤 Access Control,yes,catalog p44; Fingerprint+card 3k FP; 64-door poster
+reader,ASR2102A-D,DHI-ASR2102A-D,DHI-ASR2102A-D,1.0.01.25.11205-0004,门禁/考勤 Access Control,yes,catalog p44; Fingerprint+ID
+standalone_rf,ASI2212H-W,DHI-ASI2212H-W,DHI-ASI2212H-W,1.0.01.25.11365-0012,门禁/考勤 Access Control,yes,"catalog p45; 2.4"" IC+FP 30k users IP65"
+standalone_rf,ASI2212H-DW,DHI-ASI2212H-DW,DHI-ASI2212H-DW,1.0.01.25.11364-0010,门禁/考勤 Access Control,yes,"catalog p45; 2.4"" ID+FP"
+standalone_rf,ASI2201H-W,DHI-ASI2201H-W,DHI-ASI2201H-W,1.0.01.25.11391-0011,门禁/考勤 Access Control,yes,"catalog p45; 2.4"" IC 30k IP65"
+standalone_rf,ASI2201H-DW,DHI-ASI2201H-DW,DHI-ASI2201H-DW,1.0.01.25.11390-9001,门禁/考勤 Access Control,yes,"catalog p45; 2.4"" ID 30k"
+standalone_rf,ASI1212F,DHI-ASI1212F,DHI-ASI1212F,1.0.01.25.10929,门禁/考勤 Access Control,yes,"catalog p46; 2.8"" IC+FP"
+standalone_rf,ASI1201E,DHI-ASI1201E,DHI-ASI1201E,1.0.01.25.10486,门禁/考勤 Access Control,yes,catalog p46; IC no screen
+standalone_rf,ASI1201A,DHI-ASI1201A,DHI-ASI1201A,1.0.01.25.10013,门禁/考勤 Access Control,yes,catalog p46; LCD IC
+standalone_rf,ASI1201A-D,ASI1201A-D,ASI1201A-D,1.0.01.25.10123,门禁/考勤 Access Control,yes,catalog p46; LCD ID
+standalone_rf,ASI1202M,DHI-ASI1202M,DHI-ASI1202M,1.0.01.25.10855,门禁/考勤 Access Control,yes,catalog p46; IC+FP IK10 IP65
+attendance,ASA3213GL-MW,DHI-ASA3213GL-MW,DHI-ASA3213GL-MW,1.0.01.25.11070,门禁/考勤 Access Control,yes,"catalog p47; 4.3"" face 500 users + AC basic"
+attendance,ASA1222EL-S,DHI-ASA1222E-S,DHI-ASA1222EL-S,1.0.01.25.11954-9004,门禁/考勤 Access Control,yes,"catalog p48; 2.4"" FP USB standalone"
+attendance,ASA1222GL-D,DHI-ASA1222GL-D,DHI-ASA1222GL-D,1.0.01.25.11912-9005,门禁/考勤 Access Control,yes,"catalog p48; 2.4"" FP+IC/ID + battery"
+turnstile,ASGG520T,DHI-ASGG520T,DHI-ASGG520T,1.0.01.25.11467-9001,门禁/考勤 Access Control,yes,catalog p49; Tripod outdoor catalog family ASGG5
+turnstile,ASGY510C-L,DHI-ASGY510C-L,DHI-ASGY510C-L,1.0.01.25.12246-9001,门禁/考勤 Access Control,yes,catalog p49; Flap catalog family ASGY5
+turnstile,ASGB810X-L,DHI-ASGB810X-L,DHI-ASGB810X-L,1.0.01.25.11007-9001,门禁/考勤 Access Control,yes,catalog p50; Swing indoor catalog family ASGB8
+turnstile,ASGB610X-L,DHI-ASGB610X-L,DHI-ASGB610X-L,1.0.01.25.11121-9001,门禁/考勤 Access Control,yes,catalog p50; Swing catalog family ASGB6
+lock,ASF280A,DHI-ASF280A,DHI-ASF280A,1.2.01.27.10287,电锁/门禁配件,yes,catalog p51; Maglock 280kg single 1.2.01.27
+lock,ASF500A,DHI-ASF500A,DHI-ASF500A,1.2.01.27.10291,电锁/门禁配件,yes,catalog p51; Maglock 500kg single
+lock,ASF280B,DH-ASF280B,DH-ASF280B,1.2.01.27.10254,电锁/门禁配件,yes,catalog p51; Maglock 280kg double
+lock,ASF500B,DHI-ASF500B,DHI-ASF500B,1.2.01.27.10292,电锁/门禁配件,yes,catalog p51; Maglock 500kg double
+lock,ASF802,DHI-ASF802,DHI-ASF802,1.2.01.27.10289,电锁/门禁配件,yes,catalog p51; Drop-bolt
+lock,ASF601A,DHI-ASF601A,DHI-ASF601A,1.2.01.27.10293,电锁/门禁配件,yes,catalog p51; Electric strike
+enrollment,ASM100-V1,DHI-ASM100,DHI-ASM100-V1,1.0.01.25.11420-0017,门禁/考勤 Access Control,yes,catalog p51; USB card enrollment
+enrollment,ASM101A,DHI-ASM101A,DHI-ASM101A,1.0.01.25.11209-0014,门禁/考勤 Access Control,yes,catalog p51; USB fingerprint enrollment
+enrollment,ASM202,DHI-ASM202,DHI-ASM202,1.0.01.25.10475,门禁/考勤 Access Control,yes,catalog p51; 3-in-1 enrollment
