@@ -1,0 +1,88 @@
+role,catalog_model,external_model,internal_model,part_no,part_family,in_0922,notes
+dss_appliance,DHI-DSS4004-S2,DHI-DSS4004-S2,DHI-DSS4004-S2,1.0.01.13.11908,DSS 平台硬件,yes,current Express-class appliance S2
+dss_appliance,DHI-DSS4004-S2-W,DHI-DSS4004-S2-W,DHI-DSS4004-S2-W,1.0.01.13.11859,DSS 平台硬件,yes,S2 Windows/W SKU; 0922 also DSS4004-S2-W
+dss_appliance,DHI-DSS7016D-S2,DHI-DSS7016D-S2,DHI-DSS7016D-S2,1.0.01.13.11593,DSS 平台硬件,yes,Pro-class S2
+dss_appliance,DHI-DSS7016DR-S2,DHI-DSS7016DR-S2,DHI-DSS7016DR-S2,1.0.01.13.11596,DSS 平台硬件,yes,Pro-class S2 DR pair of 7016D
+dss_appliance,DHI-DSS7116D,DHI-DSS7116D,DHI-DSS7116D,1.0.01.13.12877-9001,DSS 平台硬件,yes,newer 7116 D
+dss_appliance,DHI-DSS7116DR,DHI-DSS7116DR,DHI-DSS7116DR,1.0.01.13.12876-9001,DSS 平台硬件,yes,newer 7116 DR
+dss_legacy,DHI-DSS4004,DHI-DSS4004,DHI-DSS4004,1.0.01.13.10102,DSS 平台硬件,yes,pre-S2; prefer S2 for new quotes
+dss_legacy,DHI-DSS7016D,DHI-DSS7016D,DHI-DSS7016D,1.0.01.13.0323,DSS 平台硬件,yes,pre-S2
+dss_license,DSS8EXV,DSS8EXV,DHI-DSSExpress8-Video-Channel-License,2.9.02.07.10006,DSS8 软件许可,yes,Express video channel
+dss_license,DSS8EXD,DSS8EXD,DHI-DSSExpress8-Door-Channel-License,2.9.02.07.10007,DSS8 软件许可,yes,Express door
+dss_license,DSS8EXVDP,DSS8EXVDP,DHI-DSSExpress8-VDP-Device-License,2.9.02.07.10008,DSS8 软件许可,yes,Express VDP
+dss_license,DSS8EXAL,DSS8EXAL,DHI-DSSExpress8-Alarm-Device-License,2.9.02.07.10009,DSS8 软件许可,yes,Express alarm
+dss_license,DSS8PRVB,DSS8PRVB,DHI-DSSPro8-Video-Base-License,2.9.02.07.10011,DSS8 软件许可,yes,Pro video base
+dss_license,DSS8PRDB,DSS8PRDB,DHI-DSSPro8-Door-Base-License,2.9.02.07.10012,DSS8 软件许可,yes,Pro door base
+dss_license,DSS8PRV,DSS8PRV,DHI-DSSPro8-Video-Channel-License,2.9.02.07.10013,DSS8 软件许可,yes,Pro video channel
+dss_license,DSS8PRD,DSS8PRD,DHI-DSSPro8-Door-Channel-License,2.9.02.07.10014,DSS8 软件许可,yes,Pro door channel
+dss_license,DSS8PRVDP,DSS8PRVDP,DHI-DSSPro8-VDP-Device-License,2.9.02.07.10015,DSS8 软件许可,yes,Pro VDP
+dss_license,DSS8PRAL,DSS8PRAL,DHI-DSSPro8-Alarm-Device-License,2.9.02.07.10016,DSS8 软件许可,yes,Pro alarm
+dss_license,DSS8PRPOS,DSS8PRPOS,DHI-DSSPro8-POS-Channel-License,2.9.02.07.10017,DSS8 软件许可,yes,Pro POS
+dss_license,DSS8PRPML,DSS8PRPML,DHI-DSSPro8-Parking-Module-License,2.9.02.07.10020,DSS8 软件许可,yes,Pro parking
+dss_license,DSS8PRAML,DSS8PRAML,DHI-DSSPro8-Attendance-Module-License,2.9.02.07.10023,DSS8 软件许可,yes,Pro attendance
+dss_license,DSS8PRCAS,DSS8PRCAS,DHI-DSSPro8-Cascade-License,2.9.02.07.10034,DSS8 软件许可,yes,Pro cascade / multi-site
+dss_license,DSS8PRACIS,DSS8PRACIS,DHI-DSSPro8-Access Control Integration-System-License,2.9.02.07.10085,DSS8 软件许可,yes,third-party access integration
+dss_license,DSS8PRVML,DSS8PRVML,DHI-DSSPro8-Visitor-Module-license,2.9.02.07.10132,DSS8 软件许可,yes,Pro visitor
+dss_license,DSS8PRVAML,DSS8PRVAML,DHI-DSSPro8-Video Analysis-Module-License,2.9.02.07.10161,DSS8 软件许可,yes,Pro video analysis module
+dss_license,DSS8PRSIA,DSS8PRSIA,DHI-DSSPro8-SIA Protocol Event Push-Module-License,2.9.02.07.10157,DSS8 软件许可,yes,SIA event push (CSU / télésurveillance)
+dss_license,DSS8EX-PR-V,DSS8EX-PR-V,DHI-DSSExpress8-to-Pro-Video-License,2.9.02.07.10027,DSS8 软件许可,yes,upgrade Express→Pro video
+dss_license,DSS8UTVB,DSS8UTVB,DHI-DSSUltimate8-Video-Base-License,2.9.02.07.10229,DSS8 软件许可,yes,Ultimate video base
+dss_license,DSS8UTV,DSS8UTV,DHI-DSSUltimate8-Video-Channel-License,2.9.02.07.10231,DSS8 软件许可,yes,Ultimate video channel
+dss_license,DSS8PR-UT-V,DSS8PR-UT-V,DHI-DSSPro8-to-Ultimate-Video-Channel-License,2.9.02.07.10288,DSS8 软件许可,yes,upgrade Pro→Ultimate video
+dss_license_extra,DSS8PRMS,DSS8PRMS,DHI-DSSPro8-MultiSite-License,2.9.03.01.10095,DSS/停车等软件许可,yes,family 2.9.03.01 not 2.9.02.07
+dss_license_extra,DSS8PRAPML,DSS8PRAPML,DHI-DSSPro8-AcuPick-Module-License,2.9.03.01.10134,DSS/停车等软件许可,yes,AcuPick
+dss_license_extra,DSS8PRVDPAPP,DSS8PRVDPAPP,DHI-DSSPro8-OnePassApp-License,2.9.03.01.10084,DSS/停车等软件许可,yes,OnePass app
+ivss,DHI-IVSS5108-1I,DHI-IVSS5108-1I,DHI-IVSS5108-1I,1.0.01.23.16088-9002,NVR 网络录像机,yes,edge AI NVR 1 I-card; family NVR not DSS hardware
+ivss,DHI-IVSS7108-1I-V2,DHI-IVSS7108-1I-V2,DHI-IVSS7108-1I-V2,1.0.01.23.16700-9002,NVR 网络录像机,yes,IVSS 7108 V2 1 I-card
+ivss,DHI-IVSS7112,DHI-IVSS7112,DHI-IVSS7112,1.0.01.23.15790-9003,NVR 网络录像机,yes,12-bay class
+ivss,DHI-IVSS7116,DHI-IVSS7116,DHI-IVSS7116,1.0.01.23.15333-9003,NVR 网络录像机,yes,
+ivss,DHI-IVSS7116DR,DHI-IVSS7116DR,DHI-IVSS7116DR,1.0.01.23.15334-9003,NVR 网络录像机,yes,
+alarm_hub_868,DHI-ARC3000H-W2(868),DHI-ARC3000H-W2(868),DHI-ARC3000H-W2(868),1.0.01.19.10560,Alarm 入侵报警,yes,wireless hub 868; W2=RF only
+alarm_hub_868,DHI-ARC3000H-FW2(868),DHI-ARC3000H-FW2(868),DHI-ARC3000H-FW2(868),1.0.01.19.10557,Alarm 入侵报警,yes,Wi-Fi+868; OEM WCENT
+alarm_hub_868,DHI-ARC3000H-GW2(868),DHI-ARC3000H-GW2(868),DHI-ARC3000H-GW2(868),1.0.01.19.10558,Alarm 入侵报警,yes,cellular+868
+alarm_hub_868,DHI-ARC3800H-W2(868),DHI-ARC3800H-W2(868),DHI-ARC3800H-W2(868),1.0.01.19.10824-9002,Alarm 入侵报警,yes,AirShield hub 868 RF
+alarm_hub_868,DHI-ARC3800H-FW2(868),DHI-ARC3800H-FW2(868),DHI-ARC3800H-FW2(868),1.0.01.19.10806-9001,Alarm 入侵报警,yes,Wi-Fi+868; OEM WCENT2
+alarm_kit_868,DHI-ART-ARC3000H-03-FW2(868),DHI-ART-ARC3000H-03-FW2(868),DHI-ART-ARC3000H-03-FW2(868),1.0.01.19.10564,Alarm 入侵报警,yes,3-piece starter kit
+alarm_kit_868,DHI-ART-ARC3800H-03-FW2(868),DHI-ART-ARC3800H-03-FW2(868),DHI-ART-ARC3800H-03-FW2(868)-V3,1.0.01.19.11086-0001,Alarm 入侵报警,yes,starter; OEM WALAMRSTART2
+alarm_detector_868,DHI-ARD323-W2(868),DHI-ARD323-W2(868),DHI-ARD323-W2(868),1.0.01.19.10551,Alarm 入侵报警,yes,door/window; OEM WDCONT
+alarm_detector_868,DHI-ARD324-W2(868),DHI-ARD324-W2(868),DHI-ARD324-W2(868),1.0.01.19.10681-0006,Alarm 入侵报警,yes,door plus; OEM WDCONTPLUS / WDCONT on this PN
+alarm_detector_868,DHI-ARD333-W2(868S),DHI-ARD333-W2(868S),DHI-ARD333-W2(868S),1.0.01.19.10989-9001,Alarm 入侵报警,yes,long-range door; OEM WDCONT LR
+alarm_detector_868,DHI-ARD1233-W2(868),DHI-ARD1233-W2(868),DHI-ARD1233-W2(868),1.0.01.19.10555-0078,Alarm 入侵报警,yes,PIR; OEM WPIRDET; also on access catalog p59-63
+alarm_detector_868,DHI-ARD2231-W2(868),DHI-ARD2231-W2(868),DHI-ARD2231-W2(868),1.0.01.19.10640-0003,Alarm 入侵报警,yes,dual-tech; OEM WDTDET
+alarm_detector_868,DHI-ARD1731-W2(868),DHI-ARD1731-W2(868),DHI-ARD1731-W2(868),1.0.01.19.10666-0013,Alarm 入侵报警,yes,camera detector; OEM WCAMDET
+alarm_detector_868,DHI-ARD2251E-W2(868),DHI-ARD2251E-W2(868),DHI-ARD2251E-W2(868),1.0.01.19.10815-9002,Alarm 入侵报警,yes,outdoor PIR; OEM WOUTDET
+alarm_detector_868,DHI-ARD2251E-W2(868V),DHI-ARD2251E-W2(868V),DHI-ARD2251E-W2(868V),1.0.01.19.10829-9001,Alarm 入侵报警,yes,outdoor PIR+camera; OEM WOUTDETCAM
+alarm_detector_868,DHI-ARD912-W2(868D),DHI-ARD912-W2(868D),DHI-ARD912-W2(868D),1.0.01.19.10695-9001,Alarm 入侵报警,yes,water; OEM WWATERDET
+alarm_detector_868,DHI-ARD512-W2(868),DHI-ARD512-W2(868),DHI-ARD512-W2(868),1.0.01.19.10784-0002,Alarm 入侵报警,yes,glass-break; OEM WGLASSBREAK
+alarm_accessory_868,DHI-ARA12-W2(868),DHI-ARA12-W2(868),DHI-ARA12-W2(868),1.0.01.19.10563-0011,Alarm 入侵报警,yes,indoor siren; OEM WSIREN
+alarm_accessory_868,DHI-ARA13-W2(868),DHI-ARA13-W2(868),DHI-ARA13-W2(868R),1.0.01.19.10612-0011,Alarm 入侵报警,yes,outdoor siren; OEM WOUTSIREN maps ARA13-W2(868O)
+alarm_accessory_868,DHI-ARA14-W2(868),DHI-ARA14-W2(868),DHI-ARA14-W2(868),1.0.01.19.10817-9001,Alarm 入侵报警,yes,bidirectional siren; OEM WSIRENBIDIR
+alarm_accessory_868,DHI-ARA24-W2(868),DHI-ARA24-W2(868),DHI-ARA24-W2(868),1.0.01.19.10553-0076,Alarm 入侵报警,yes,keyfob; OEM WKEYFOB-B on -B SKU
+alarm_accessory_868,DHI-ARA43-W2(868),DHI-ARA43-W2(868),DHI-ARA43-W2(868),1.0.01.19.10587,Alarm 入侵报警,yes,repeater; OEM WREPEATER
+alarm_accessory_868,DHI-ARA46-N-W2(868),DHI-ARA46-N-W2(868),DHI-ARA46-N-W2(868),1.0.01.19.11027-9001,Alarm 入侵报警,yes,repeater 2.0; OEM WREPEATER 2.0
+alarm_keypad_868,DHI-ARK30T-W2(868),DHI-ARK30T-W2(868),DHI-ARK30T-W2(868),1.0.01.19.10621-0011,Alarm 入侵报警,yes,wireless keypad; OEM WKEYPAD
+alarm_keypad_868,DHI-ARK30C-RW2(868),DHI-ARK30C-RW2(868),DHI-ARK30C-RW2(868),1.0.01.19.10877-0003,Alarm 入侵报警,yes,LCD keypad; OEM WKEYPAD-LCD
+alarm_module_868,DHI-ARM310-W2(868),DHI-ARM310-W2(868),DHI-ARM310-W2(868),1.0.01.19.10611-0009,Alarm 入侵报警,yes,I/O expander; OEM WEXPANDER
+alarm_module_868,DHI-ARM320-W2(868),DHI-ARM320-W2(868),DHI-ARM320-W2(868),1.0.01.19.10786-9001,Alarm 入侵报警,yes,expander+; OEM WEXPANDER+
+alarm_module_868,DHI-ARM7012-W2(868),DHI-ARM7012-W2(868),DHI-ARM7012-W2(868),1.0.01.19.10684-0008,Alarm 入侵报警,yes,wall switch; OEM WWALL
+alarm_module_868,DHI-ARM7011-W2(868),DHI-ARM7011-W2(868),DHI-ARM7011-W2(868),1.0.01.19.10685-0007,Alarm 入侵报警,yes,relay; OEM WRELAY
+alarm_module_868,DHI-ARM9A4-P-W2(868),DHI-ARM9A4-P-W2(868),DHI-ARM9A4-P-W2(868),1.0.01.19.10869-9001,Alarm 入侵报警,yes,16 I/O; OEM WIOP16
+alarm_wired,DHI-ARC3008C,DHI-ARC3008C,DHI-ARC3008C,1.0.01.19.10457,Alarm 入侵报警,yes,"wired panel; Access catalog p59 EN50131 Grade 2; also 1.0.01.19.10522"
+alarm_wired,DHI-ARC2016C,DHI-ARC2016C,DHI-ARC2016C,1.0.01.19.10077,Alarm 入侵报警,yes,wired 16-zone class; catalog ARC2008C/2016C — 2008C not a 0922 row
+alarm_wired,DHI-ARC9016C,DHI-ARC9016C,DHI-ARC9016C-V2,1.0.01.19.10243,Alarm 入侵报警,yes,wired 16-zone class
+alarm_smoke_868,DHI-HY-SA21A-W2(868),DHI-HY-SA21A-W2(868),DHI-HY-SA21A-W2(868),1.0.01.36.14821-9001,烟感/消防 HY,yes,smoke; OEM WSMOKE; not family 1.0.01.19
+ivs_gks,DHI-IVS-F7500-T-S2-GU2,DHI-IVS-F7500-T-S2-GU2,DHI-IVS-F7500-T-S2-GU2,1.0.01.18.10353,IVS 智能分析服务器,no,GKS IVS Selection 20230214 Face server; NOT in 0922
+ivs_gks,DHI-IVS-F7500-2T-S2-GU2,DHI-IVS-F7500-2T-S2-GU2,DHI-IVS-F7500-2T-S2-GU2,1.0.01.18.10354,IVS 智能分析服务器,no,GKS; dual T4 face; NOT in 0922
+ivs_gks,DHI-IVS-T8100-T-300W,DHI-IVS-T8100-T-300W,DHI-IVS-T8100-T-300W,1.0.01.18.10446,IVS 智能分析服务器,no,GKS vehicle analysis; NOT in 0922
+ivs_gks,DHI-IVS-T8100-S-GU2,DHI-IVS-T8100-S-GU2,DHI-IVS-T8100-S-GU2,1.0.01.18.10381,IVS 智能分析服务器,no,GKS vehicle search; NOT in 0922
+ivs_gks,DHI-IVS-GS8000-GU2-HW,DHI-IVS-GS8000-GU2-HW,DHI-IVS-GS8000-GU2-HW,1.0.01.18.10662,IVS 智能分析服务器,no,GKS structured video HW; NOT in 0922
+ivs_gks,DHI-IVS-VS8000-R-PRO,DHI-IVS-VS8000-R-PRO,DHI-IVS-VS8000-R-PRO,2.9.02.10.10062,IVS 软件许可,no,GKS 1ch structured SW; family 2.9.02.10 absent from 0922
+ivs_gks,DHI-IVS-TB8000-E-GU1,DHI-IVS-TB8000-E-GU1,DHI-IVS-TB8000-E-GU1,1.0.01.18.10618,IVS 智能分析服务器,no,GKS traffic 32ch; NOT in 0922
+ivs_gks,DHI-IVS-TB8000-4E-GU2,DHI-IVS-TB8000-4E-GU2,DHI-IVS-TB8000-4E-GU2,1.0.01.18.10621,IVS 智能分析服务器,no,GKS traffic 128ch; NOT in 0922
+ivs_gks,DHI-IVS-TB8000-1C-PRO,DHI-IVS-TB8000-1C-PRO,DHI-IVS-TB8000-1C-PRO,2.9.02.10.10123,IVS 软件许可,no,GKS traffic 1ch SW; NOT in 0922
+ivs_gks,DHI-IVS-PB8000-E-GU1,DHI-IVS-PB8000-E-GU1,DHI-IVS-PB8000-E-GU1,1.0.01.18.10635,IVS 智能分析服务器,no,GKS person-behavior 32ch; NOT in 0922
+ivs_gks,DHI-IVS-PB8000-1C-PRO,DHI-IVS-PB8000-1C-PRO,DHI-IVS-PB8000-1C-PRO,2.9.02.10.10092,IVS 软件许可,no,GKS person-behavior 1ch SW; NOT in 0922
+ivs_gks,DHI-IVS-VQ8000-1000,DHI-IVS-VQ8000-1000,DHI-IVS-VQ8000-1000,1.0.01.18.10516,IVS 智能分析服务器,no,GKS video-quality 1000ch; NOT in 0922
+ivs_gks,DHI-AIX3200,DHI-AIX3200,DHI-AIX3200,1.0.01.18.10651,IVS 智能分析服务器,no,GKS analysis card; NOT in 0922
+ivs_gks,DHI-IVE-DP8000-GU2-HW,DHI-IVE-DP8000-GU2-HW,DHI-IVE-DP8000-GU2-HW,1.0.01.18.10760,IVS 智能分析服务器,no,GKS CV engine; NOT in 0922
+ivs_gks,DHI-IVS-IP8000-E-GU1,DHI-IVS-IP8000-E-GU1,DHI-IVS-IP8000-E-GU1,1.0.01.18.10700,IVS 智能分析服务器,no,GKS prisoner-only; do not put in France civilian CCTP; NOT in 0922

@@ -28,9 +28,9 @@
 |---|---|
 | Vidéoprotection 视频保护 | 有 0922 + 零售 IPC/NVR；**无线/4G/电池**见 [`gks-wireless-cameras.md`](gks-wireless-cameras.md)（目录 PDF 因链接过期未入库）。工程有线 CCTP 段仍缺 |
 | Contrôle d'accès 门禁 | 已学 GKS 基础包 + 2025 目录 + 0922 `1.0.01.25`。CCTP 草稿 [`cctp-module-acces.md`](cctp-module-acces.md)。缺法国可售过滤和 DESFire |
-| Anti-intrusion 入侵报警 | 目录末尾有 ARC/ARD 彩页，**不算学完**；等 Alarm zip |
-| IA et analyse 智能分析 | 车载 DSM/ADAS/客流有；场站/城市 AI 未做成设计院材料 |
-| Plateforme et stockage 平台与存储 | DSS Pro 在门禁目录里有容量（500 终端/1000 门），仍缺 DSS 资料包 |
+| Anti-intrusion 入侵报警 | 已学 GKS 选型包文件名 + 0922 `1.0.01.19`（法国 **868 MHz**）。CCTP 草稿 [`cctp-module-anti-intrusion.md`](cctp-module-anti-intrusion.md)。选型 Excel 被 IRM 锁；**APSAD/CNPP 仍缺** |
+| IA et analyse 智能分析 | 车载 DSM/ADAS/客流有；IVSS 在 `1.0.01.23`；IVS 服务器只在 GKS 2023 表、**0922 对不上** |
+| Plateforme et stockage 平台与存储 | DSS 硬件 `1.0.01.13` + DSS8 许可 `2.9.02.07`。CCTP 草稿 [`cctp-module-plateforme.md`](cctp-module-plateforme.md)。V8.8 选型表打不开，路数仍以门禁目录 500 终端/1000 门为彩页数字 |
 
 设计院要的是这五块的 **法语功能描述**，不是车载 27 页 PPT。
 
@@ -91,7 +91,7 @@ Alternet，Amocom，SOC Ingénierie，ProConsulting，Ambre，Protek AMO
 
 **还要学（按对出图的影响）**
 
-1. **图② 门禁、入侵、平台**：没有这三块，设计院只能把我们写成「摄像机供应商」。  
+1. **图② 门禁、入侵、平台**：选型+0922 已能写法语草稿；还缺 **EUR 可售** 和 **CNPP**，否则设计院仍可能删认证句。  
 2. **⑥ 除 Ingérop 外的名单**：Egis / Artelia / Setec / Systra 各做什么、弱电接口在哪；UGAP 怎么进框架。  
 3. **B 类安防所**：他们写的是纯安防 CCTP，比 Ingérop 更认 APSAD/CNPP。  
 4. **C 类 UGAP 等**：公共采购路径，和代理商进货不是同一套动作。  

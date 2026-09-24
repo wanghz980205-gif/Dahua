@@ -94,9 +94,9 @@ Ingérop / Egis 大项目走 DSS；中小楼宇走 SmartPSS Lite。
 
 ---
 
-## 5. 同包里的报警（未当完整入侵资料）
+## 5. 同包里的报警（完整入侵见 DSS/Alarm 选型包）
 
-目录 59–63 页有有线报警：`ARC3008C`（EN50131 Grade 2）、`ARC2008C/2016C`、`ARC9016C`，探测器 `ARD1233` 等。这是彩页摘录，**不能替代 Alarm 资料包**。法国 APSAD 认证表仍缺。
+目录 59–63 页有有线报警：`ARC3008C`（EN50131 Grade 2）、`ARC2008C/2016C`、`ARC9016C`，探测器 `ARD1233` 等。0922 有 `ARC3008C` / `ARC2016C` / `ARC9016C`，**没有 `ARC2008C` 行**。法国无线必须 868 MHz，见 [`gks-dss-alarm.md`](gks-dss-alarm.md)。APSAD 认证表仍缺。
 
 ---
 
@@ -105,4 +105,4 @@ Ingérop / Egis 大项目走 DSS；中小楼宇走 SmartPSS Lite。
 1. 法国/EUR 可售清单（目录型号 ≠ 法国能订）
 2. DESFire / OSDP 实际可售读头
 3. 未加密的功能清单，或单品法语 datasheet
-4. 入侵完整资料包、DSS 平台包
+4. 未加密的 DSS V8.8 / Alarm 选型表、EUR 可售、CNPP

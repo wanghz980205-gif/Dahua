@@ -107,6 +107,49 @@ class DahuaIdentityTests(unittest.TestCase):
         self.assertEqual(result.rows[0].external_model, "DH-H3JE")
         self.assertTrue(result.rows[0].part_no.startswith("1.0.01.04"))
 
+    def test_dss_alarm_ivs_part_families(self):
+        self.assertEqual(part_family("1.0.01.13.11908"), "DSS 平台硬件")
+        self.assertEqual(part_family("1.0.01.19.10457"), "Alarm 入侵报警")
+        self.assertEqual(part_family("2.9.02.07.10013"), "DSS8 软件许可")
+        self.assertEqual(part_family("1.0.01.18.10353"), "IVS 智能分析服务器")
+        self.assertEqual(part_family("2.9.02.10.10062"), "IVS 软件许可")
+
+    def test_dss4004_s2_lookup(self):
+        result = self.index.lookup("DHI-DSS4004-S2", limit=10)
+        self.assertTrue(result.rows)
+        self.assertTrue(any(r.part_no.startswith("1.0.01.13.11908") for r in result.rows))
+
+    def test_dss8prv_license_lookup(self):
+        result = self.index.lookup("DSS8PRV", limit=5)
+        self.assertTrue(result.rows)
+        self.assertEqual(result.rows[0].part_no, "2.9.02.07.10013")
+
+    def test_arc3008c_lookup(self):
+        result = self.index.lookup("DHI-ARC3008C", limit=10)
+        self.assertTrue(result.rows)
+        self.assertTrue(any(r.part_no.startswith("1.0.01.19.10457") for r in result.rows))
+
+    def test_arc3800h_868_lookup(self):
+        result = self.index.lookup("DHI-ARC3800H-W2(868)", limit=10)
+        self.assertTrue(result.rows)
+        self.assertTrue(all("868" in r.external_model or "868" in r.internal_model for r in result.rows))
+        self.assertTrue(result.rows[0].part_no.startswith("1.0.01.19"))
+
+    def test_ivss_lookup(self):
+        result = self.index.lookup("DHI-IVSS7108-1I-V2", limit=5)
+        self.assertTrue(result.rows)
+        self.assertTrue(result.rows[0].part_no.startswith("1.0.01.23"))
+
+    def test_gks_ivs_model_not_in_0922(self):
+        result = self.index.lookup("DHI-IVS-F7500-T-S2-GU2", limit=5)
+        self.assertEqual(result.rows, [])
+
+    def test_gks_filename_extracts_dss_and_alarm(self):
+        self.assertIn("DHI-DSS7016DR-S2", extract_models("Datasheet_DHI-DSS7016DR-S2_EN.pdf"))
+        self.assertIn("DHI-ARC3008C", extract_models("Datasheet_DHI-ARC3008C_EN.pdf"))
+        ivss = extract_models("Datasheet_DHI-IVSS7108-1I-V2_EN.pdf")
+        self.assertTrue(any("IVSS7108" in m.upper() for m in ivss))
+
 
 if __name__ == "__main__":
     unittest.main()
