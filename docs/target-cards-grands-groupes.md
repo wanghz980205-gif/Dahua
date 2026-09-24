@@ -21,7 +21,7 @@
 - 入口：楼宇工程 CFA / sûreté électronique
 - 项目类型：IGH、办公、酒店、商场、数据中心；写 CCTP/DPGF，全周期 APS→AOR
 - 系统：视频、门禁、入侵、VDI、SSI、GTB
-- 带：楼宇安防四件套 + 法语规格；对接零售可供型号
+- 带：楼宇安防四件套 + 法语规格；对接零售可供型号（Wi-Fi/Hero 给安装商，不进大项目 CCTP）
 - 不带：MXVR 车载主机
 
 ## Setec

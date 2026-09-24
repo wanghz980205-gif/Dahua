@@ -8,11 +8,11 @@
 
 ## 下一步只做一件事
 
-门禁基础包已学（[`gks-access-control.md`](gks-access-control.md)）。接着丢 **平台 DSS/IVSS** 或 **入侵 Alarm** 的 GKS zip / 签名下载链接。
+门禁已学。无线摄像机包 **只学到文件名+0922**（签名 2026-09-24 01:18 UTC 过期，11 GB 目录 PDF 没抽到）。接着丢 **平台 DSS** 或 **入侵 Alarm** 的新签名链接。
 
-签名链接（gksfile.dahuasecurity.com）比整包上传更稳：我可以只抽目录和 PDF，不必下 1.4 GB 的 .ai。
+无线目录 PDF 若还要正文，把 **未过期** 的 `Wireless_Cameras.zip` 链接再贴一次即可，不必重新下 11 GB。
 
-不要再丢总部总册。
+签名大约十小时失效；HEAD 可能 403、Range GET 才通。不要丢总部总册。
 
 ---
 
@@ -28,7 +28,7 @@
 | 法语规格书、已用过的 CCTP 摘录 | 对照 APSAD R82、RGPD、ONVIF，标哪些能写、哪些不能写人脸 |
 | France / EUR 可售或价目（Excel 即可） | 过滤 0922，只保留法国能订的内部型号 |
 
-门禁基础包已入库。没有 DSS / Alarm zip 时，**入侵和平台规格仍然写不完整**。
+门禁基础包已入库。无线包有清单和料号，缺 2026-06 目录正文。没有 DSS / Alarm zip 时，**入侵和平台规格仍然写不完整**。
 
 GKS 建议下：`Access` `Alarm` `DSS` `IVSS`，以及 France/EUR 价目。
 

@@ -26,7 +26,7 @@
 
 | 模块 | 现状 |
 |---|---|
-| Vidéoprotection 视频保护 | 有 0922 + 零售 IPC/NVR 常识；法国 CCTP 段落还没有 |
+| Vidéoprotection 视频保护 | 有 0922 + 零售 IPC/NVR；**无线/4G/电池**见 [`gks-wireless-cameras.md`](gks-wireless-cameras.md)（目录 PDF 因链接过期未入库）。工程有线 CCTP 段仍缺 |
 | Contrôle d'accès 门禁 | 已学 GKS 基础包 + 2025 目录 + 0922 `1.0.01.25`。CCTP 草稿 [`cctp-module-acces.md`](cctp-module-acces.md)。缺法国可售过滤和 DESFire |
 | Anti-intrusion 入侵报警 | 目录末尾有 ARC/ARD 彩页，**不算学完**；等 Alarm zip |
 | IA et analyse 智能分析 | 车载 DSM/ADAS/客流有；场站/城市 AI 未做成设计院材料 |

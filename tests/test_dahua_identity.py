@@ -95,6 +95,18 @@ class DahuaIdentityTests(unittest.TestCase):
         models2 = extract_models("Datasheet_DHI-ASC2204C-S_EN.pdf")
         self.assertEqual(models2, ["DHI-ASC2204C-S"])
 
+    def test_gks_filename_extracts_wireless_short_name(self):
+        models = extract_models(
+            "20250121_DH3.RD009931_IPC_DH-F5D-PV_MTBF Report.pdf"
+        )
+        self.assertIn("DH-F5D-PV", models)
+
+    def test_h3je_lookup(self):
+        result = self.index.lookup("DH-H3JE", limit=5)
+        self.assertTrue(result.rows)
+        self.assertEqual(result.rows[0].external_model, "DH-H3JE")
+        self.assertTrue(result.rows[0].part_no.startswith("1.0.01.04"))
+
 
 if __name__ == "__main__":
     unittest.main()

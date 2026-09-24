@@ -18,18 +18,26 @@ MODEL_RE = re.compile(
     r"(?:DH[I]?-)?(?:IPC|HAC|NVR|XVR|HCVR|TPC|VTO|VTH|ITC|SD|ASI|ASC|ASR|ASA|ASM|ASG|ASF|ARC|ARD)[A-Z0-9\-]+",
     re.I,
 )
+# Retail wireless short names in GKS MTBF / catalog filenames (Hero, cubes, battery PTZ).
+WIRELESS_SHORT_RE = re.compile(
+    r"(?:DH-)?(?:F5D|F4C|H3JE|H5A|H3A|H3B|H2A|P3AE|P5AE|P5AS|BP4A|BP3EW|BF4C|WL46A)(?:-[A-Z0-9]+)*",
+    re.I,
+)
 
 
 def extract_models(filename: str) -> list[str]:
     found: list[str] = []
     seen: set[str] = set()
-    for m in MODEL_RE.finditer(filename or ""):
-        token = m.group(0).rstrip("-_")
-        key = token.casefold()
-        if key in seen:
-            continue
-        seen.add(key)
-        found.append(token)
+    for rex in (MODEL_RE, WIRELESS_SHORT_RE):
+        for m in rex.finditer(filename or ""):
+            token = m.group(0).rstrip("-_")
+            if token.upper() in {"IPC", "HAC", "NVR", "XVR"}:
+                continue
+            key = token.casefold()
+            if key in seen:
+                continue
+            seen.add(key)
+            found.append(token)
     return found
 
 
