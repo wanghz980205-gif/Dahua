@@ -30,7 +30,7 @@
 | Contrôle d'accès 门禁 | 已学 GKS 基础包 + 2025 目录 + 0922 `1.0.01.25`。CCTP 草稿 [`cctp-module-acces.md`](cctp-module-acces.md)。缺法国可售过滤和 DESFire |
 | Anti-intrusion 入侵报警 | 已学 GKS 选型包文件名 + 0922 `1.0.01.19`（法国 **868 MHz**）。CCTP 草稿 [`cctp-module-anti-intrusion.md`](cctp-module-anti-intrusion.md)。选型 Excel 被 IRM 锁；**APSAD/CNPP 仍缺** |
 | IA et analyse 智能分析 | 车载 DSM/ADAS/客流有；IVSS 在 `1.0.01.23`；IVS 服务器只在 GKS 2023 表、**0922 对不上** |
-| Plateforme et stockage 平台与存储 | DSS 硬件 `1.0.01.13` + DSS8 许可 `2.9.02.07`。CCTP 草稿 [`cctp-module-plateforme.md`](cctp-module-plateforme.md)。V8.8 选型表打不开，路数仍以门禁目录 500 终端/1000 门为彩页数字 |
+| Plateforme et stockage 平台与存储 | DSS 硬件 `1.0.01.13` + DSS8 许可。容量见 [`gks-dss-basic.md`](gks-dss-basic.md)（V8.5 对比）。V8.8 选型表仍打不开。CCTP [`cctp-module-plateforme.md`](cctp-module-plateforme.md) |
 
 设计院要的是这五块的 **法语功能描述**，不是车载 27 页 PPT。
 

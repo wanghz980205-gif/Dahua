@@ -1,0 +1,16 @@
+metric,scope,express_free,express_licensed,professional,aio_7116_7016s2,source
+os,deploy,Windows,Windows,Windows,Linux,DSS Products Comparison V8.5.0 (zip named V8.8 compat)
+form,deploy,Software,Software,Software,All-in-One,same
+hot_standby,deploy,no,no,yes,yes,same
+distribute_cascade,deploy,single-server,single-server,distribute; cascade,distribute,same
+online_users,single,10 online / 50 total,10 online / 50 total,"200 online / 2,500 total",50 online / 200 total,same
+roles,single,20,20,500,100,same
+video_devices_channels,single,64 / 64,256 / 256,"1,000 / 2,000","500 / 1,000",same
+video_devices_channels,multi-server,n/a,n/a,"10,000 / 20,000","2,500 / 5,000",same
+access_devices_doors,multi-server,n/a,n/a,"1,500 / 3,000","600 / 1,500",same
+alarm_controllers_zones,multi-server,n/a,n/a,"500 / 5,000","320 / 1,600",same
+persons,single,"5,000","5,000","300,000","100,000",same
+onvif,function,yes,yes,yes,yes,same
+hikvision_protocol,function,no,no,yes,no,same
+sia_adm_cid_dcs,function,no,no,yes,no,same; Professional Windows software only
+incoming_bw_mbps,single,200,200,600,600,same

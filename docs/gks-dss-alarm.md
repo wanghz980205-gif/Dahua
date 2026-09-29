@@ -86,9 +86,10 @@ GKS IVS 表里的 `1.0.01.18.*` / `2.9.02.10.*` **不要当 ERP 库存料号**�
 | **VB / DB** | Video / Door **Base**（底座许可，和通道许可分开订） |
 | **EX-PR / PR-UT** | 版本升级许可，不是新通道 |
 
-例：`DSS8PRV` = Pro 视频通道 `2.9.02.07.10013`；`DSS8EXAL` = Express 报警 `2.9.02.07.10009`。
+例：`DSS8PRV` = Pro 视频通道 `2.9.02.07.10013`；`DSS8EXAL` = Express 报警 `2.9.02.07.10009`。  
+`DSS8PRVB` / `DSS8PRDB` 底座各含 **16 路视频 / 16 门**（V8.6 License Quick Guide）。
 
-门禁 2025 目录写 DSS Pro **500 终端 / 1000 门**。这是彩页数字；V8.8 选型表打不开，**不要另编 Express/Ultimate 路数**。
+容量以 DSS 基础包里的 **V8.5 对比表** 为准（见 [`gks-dss-basic.md`](gks-dss-basic.md)），不要把门禁彩页「500 终端 / 1000 门」当成 Pro 软件上限。V8.8 选型 Excel 在基础包里 **仍是 IRM**。
 
 ### 3.2 硬件（`1.0.01.13`）
 
@@ -105,7 +106,7 @@ GKS IVS 表里的 `1.0.01.18.*` / `2.9.02.10.*` **不要当 ERP 库存料号**�
 
 许可和硬件要一起报：一体机 ≠ 通道授权。大项目常见：`DSS7016DR-S2` + `DSS8PRVB` + N×`DSS8PRV` + 门禁 `DSS8PRD` + 报警 `DSS8PRAL`。
 
-CSU / 远程值守可加 `DSS8PRSIA`（SIA 事件推送）。
+CSU / 远程值守：事件外推订 `DSS8PRSIA`。**接收** SIA ADM-CID/DCS 只在 DSS Professional（Windows），Linux 一体机对比表为 ×。
 
 ### 3.3 IVSS ≠ DSS
 
@@ -212,8 +213,8 @@ Extreme / CyberCity 许可表打不开，城市超脑不要用本包出图。
 
 ## 7. 还缺
 
-1. **未加密** 的 Alarm 20260804 和 DSS V8.8（或法国同事导出的 CSV）。  
+1. **未加密** 的 Alarm 20260804 和 DSS **V8.8** 选型（基础包里的 V8.8 仍是 IRM；容量已用 V8.5 对比表补上）。  
 2. 法国/EUR 可售过滤（868 型号 ≠ 法国都能订）。  
-3. APSAD R82 / CNPP 认证表。  
-4. Extreme / CyberCity 真表（现在是同一份 IRM 壳）。  
-5. 无线摄像机 2026-06 目录 PDF（上一包链接已过期）。
+3. APSAD R82 / CNPP 认证表（ETSI 303 645 ≠ CNPP）。  
+4. Extreme / CyberCity 真表。  
+5. 无线摄像机 2026-06 目录 PDF。

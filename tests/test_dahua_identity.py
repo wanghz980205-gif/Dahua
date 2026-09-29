@@ -150,6 +150,17 @@ class DahuaIdentityTests(unittest.TestCase):
         ivss = extract_models("Datasheet_DHI-IVSS7108-1I-V2_EN.pdf")
         self.assertTrue(any("IVSS7108" in m.upper() for m in ivss))
 
+    def test_dss8prvb_base_license(self):
+        result = self.index.lookup("DSS8PRVB", limit=3)
+        self.assertTrue(result.rows)
+        self.assertEqual(result.rows[0].part_no, "2.9.02.07.10011")
+
+    def test_dss_hot_standby_license(self):
+        result = self.index.lookup("DSSHOTSTANDBY", limit=3)
+        self.assertTrue(result.rows)
+        self.assertEqual(result.rows[0].part_no, "2.3.01.01.10131")
+        self.assertEqual(part_family(result.rows[0].part_no), "DSS 热备许可")
+
 
 if __name__ == "__main__":
     unittest.main()

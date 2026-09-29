@@ -72,9 +72,10 @@ python3 -m src.gks_catalog Datasheet_DHI-ASC2204C-S_EN.pdf
 
 主/从 `ASC3202B` + `ASR1200E` / `ASR2101A-ME` / `ASR2102A`。Web 管理，PoE 给锁供电。SMB，不配 DSS。
 
-### C. 最多 64 门 SmartPSS Lite / 最多 1000 门 DSS Pro
+### C. 最多 64 门 SmartPSS Lite / DSS
 
-`ASC2204C-S` + 读头 + 可选人脸 `ASI6214J-MFW`。SmartPSS Lite：**最多 64 台设备**，免费，Windows。DSS Pro：**500 终端 / 1000 门**，视频联动、消防联动。  
+`ASC2204C-S` + 读头 + 可选人脸 `ASI6214J-MFW`。SmartPSS Lite：**最多 64 台设备**，免费，Windows。  
+DSS：门禁 2025 目录写「500 终端 / 1000 门」；V8.5 对比表里 **Pro 软件** 是 1 500 设备 / 3 000 门，**Linux 一体机** 是 600 / 1 500。见 [`gks-dss-basic.md`](gks-dss-basic.md)。  
 Ingérop / Egis 大项目走 DSS；中小楼宇走 SmartPSS Lite。
 
 考勤：`ASA1222GL(-D)` / `ASA3223A-W`（0922 无 ASA3223A-W）+ SmartPSS Lite。
@@ -105,4 +106,4 @@ Ingérop / Egis 大项目走 DSS；中小楼宇走 SmartPSS Lite。
 1. 法国/EUR 可售清单（目录型号 ≠ 法国能订）
 2. DESFire / OSDP 实际可售读头
 3. 未加密的功能清单，或单品法语 datasheet
-4. 未加密的 DSS V8.8 / Alarm 选型表、EUR 可售、CNPP
+4. 未加密 Alarm 选型表、EUR 可售、CNPP

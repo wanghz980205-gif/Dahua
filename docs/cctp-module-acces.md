@@ -17,7 +17,7 @@ Trois architectures acceptables selon la taille :
 | 1 porte / accueil | Terminal autonome | jusqu'à quelques milliers d'usagers | `DHI-ASI6213J-MW` / `DHI-ASI3214A-W` |
 | ≤ 40 portes, sans serveur | Contrôleurs web (série Insider) | 100 000 usagers / 500 000 événements | `DHI-ASC3202B` + lecteurs `ASR…` |
 | ≤ 64 portes PME | SmartPSS Lite (Windows, gratuit) | 64 appareils | `DHI-ASC2204C-S` |
-| Immeuble / site | DSS Pro | 500 terminaux / 1 000 portes, liaison vidéo et SSI | mêmes contrôleurs + DSS |
+| Immeuble / site | DSS Professional (Windows) ou appliance Linux | Pro : jusqu'à 3 000 portes (comparaison V8.5) ; appliance 1 500 portes | mêmes contrôleurs + DSS |
 
 Le maître d'œuvre choisira l'architecture ; le titulaire justifiera la capacité (portes, usagers, historiques).
 
@@ -76,7 +76,8 @@ Capacité catalogue : 100 000 usagers, 500 000 événements, Ethernet 10/100.
 ## 6. Supervision
 
 - **SmartPSS Lite** : jusqu'à 64 appareils ; CCTV + accès + présence + interphonie ; ouverture à distance ; SDK.
-- **DSS Pro** : jusqu'à 1 000 portes ; liaison caméra sur événement d'accès ; report incendie ; clients multiples.
+- **DSS Pro** (Windows) : jusqu'à **3 000 portes** / 1 500 contrôleurs (comparaison V8.5) ; liaison caméra ; report d'événements.  
+- **Appliance Linux** (`DSS7016` / `DSS7116`) : jusqu'à **1 500 portes** ; pas de SIA ADM-CID/DCS dans la table V8.5.
 
 Les images d'accès sont des données personnelles (RGPD). Durée d'enregistrement alignée sur la vidéoprotection du site.
 
