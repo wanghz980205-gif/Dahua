@@ -1,0 +1,7 @@
+sheet,nonempty_data_rows_in_bom,readable,notes
+Wireless Kit,49,yes,kits ARC3000H/ARC3800H; 433/868/915; EU vs US PSU; not the IRM 16MB 20260804 table
+Wired Detector,10,yes,transposed; most 1.0.99.81 absent from 0922
+Wired Accessory,10,yes,panic/siren/brackets; ARA16 LATAM only
+Fire Product,2,yes,FAD201A 10881/10882 not in 0922
+Emergency Phone Tower,11,yes,VTA8311A* in 0922 with -9001; 4G modules/poles not in 0922
+Sheet1,0,empty,
