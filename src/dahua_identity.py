@@ -48,6 +48,8 @@ PART_FAMILY = {
     "1.0.01.20": "其它成品",
     "1.2.01.27": "电锁/门禁配件",
     "1.0.99.44": "PFA/PFB 支架配件",
+    "1.0.99.81": "有线报警探测器",
+    "1.2.01.23": "安防周边配件",
     "1.4.01.07": "Discount 折扣虚项",
     "2.9.02.07": "DSS8 软件许可",
     "2.9.03.01": "DSS/停车等软件许可",
@@ -92,7 +94,7 @@ def classify_identifier(value: str) -> str:
     if extra:
         return "internal_model"
     if re.search(
-        r"(?:DH[I]?-)?(?:IPC|HAC|NVR|XVR|HCVR|TPC|VTO|VTH|ITC|SD|ASI|ASC|ASR|ASA|ASM|ASG|ASF|DSS|IVSS|IVS|ARC|ARD|ARM|ARA|ARK|ART)",
+        r"(?:DH[I]?-)?(?:IPC|HAC|NVR|XVR|HCVR|TPC|VTO|VTH|ITC|SD|ASI|ASC|ASR|ASA|ASM|ASG|ASF|DSS|IVSS|IVS|ARC|ARD|ARM|ARA|ARK|ART|VTA|FAD|HY)",
         text,
         re.I,
     ):

@@ -15,7 +15,7 @@ from src.dahua_identity import (
 )
 
 MODEL_RE = re.compile(
-    r"(?:DH[I]?-)?(?:IPC|HAC|NVR|XVR|HCVR|TPC|VTO|VTH|ITC|SD|ASI|ASC|ASR|ASA|ASM|ASG|ASF|DSS|IVSS|IVS|ARC|ARD|ARM|ARA|ARK|ART)[A-Z0-9\-]+",
+    r"(?:DH[I]?-)?(?:IPC|HAC|NVR|XVR|HCVR|TPC|VTO|VTH|ITC|SD|ASI|ASC|ASR|ASA|ASM|ASG|ASF|DSS|IVSS|IVS|ARC|ARD|ARM|ARA|ARK|ART|VTA|FAD|HY)[A-Z0-9\-]+",
     re.I,
 )
 # Retail wireless short names in GKS MTBF / catalog filenames (Hero, cubes, battery PTZ).
@@ -45,6 +45,9 @@ def extract_models(filename: str) -> list[str]:
                 "ARA",
                 "ARK",
                 "ART",
+                "VTA",
+                "FAD",
+                "HY",
             }:
                 continue
             key = token.casefold()

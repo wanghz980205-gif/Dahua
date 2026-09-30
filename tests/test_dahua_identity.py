@@ -162,5 +162,41 @@ class DahuaIdentityTests(unittest.TestCase):
         self.assertEqual(part_family(result.rows[0].part_no), "DSS 热备许可")
 
 
+    def test_wired_alarm_part_family(self):
+        self.assertEqual(part_family("1.0.99.81.10098-9004"), "有线报警探测器")
+        self.assertEqual(part_family("1.2.01.23.10030"), "安防周边配件")
+
+    def test_ard312_wired_lookup(self):
+        result = self.index.lookup("DHI-ARD312", limit=5)
+        self.assertTrue(any(r.part_no.startswith("1.0.99.81.10098") for r in result.rows))
+
+    def test_ard1233_model_hits_wireless_not_wired_pn(self):
+        result = self.index.lookup("DHI-ARD1233", limit=10)
+        self.assertTrue(result.rows)
+        self.assertTrue(all(r.part_no.startswith("1.0.01.19") for r in result.rows))
+        self.assertFalse(any("1.0.99.81.10036" in r.part_no for r in result.rows))
+
+    def test_vta8311_lookup(self):
+        result = self.index.lookup("DHI-VTA8311A-4", limit=5)
+        self.assertTrue(any(r.part_no.startswith("1.0.01.19.10633") for r in result.rows))
+
+    def test_art_arc3800_868_v3_in_0922(self):
+        result = self.index.lookup("DHI-ART-ARC3800H-03-FW2(868)-V3", limit=10)
+        self.assertTrue(any(r.part_no.startswith("1.0.01.19.11086") for r in result.rows))
+
+    def test_fad201a_not_in_0922(self):
+        result = self.index.lookup("DHI-FAD201A", limit=5)
+        self.assertEqual(result.rows, [])
+
+    def test_arc3000h_v3_868_pn_not_in_0922(self):
+        result = self.index.lookup("1.0.01.19.11083", limit=5)
+        self.assertEqual(result.rows, [])
+
+    def test_gks_filename_extracts_vta_and_fad(self):
+        self.assertIn("DHI-VTA8311A-4", extract_models("Datasheet_DHI-VTA8311A-4_EN.pdf"))
+        self.assertIn("DHI-FAD201A", extract_models("Datasheet_DHI-FAD201A_EN.pdf"))
+        self.assertIn("DHI-HY-SA21A-W2", extract_models("Datasheet_DHI-HY-SA21A-W2_EN.pdf"))
+
+
 if __name__ == "__main__":
     unittest.main()

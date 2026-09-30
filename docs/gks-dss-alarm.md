@@ -10,6 +10,7 @@ auth_key `1790271722` = **2026-09-24 17:42 UTC 过期**。目录和最新 xlsx �
 
 - 包内清单：[`data/gks-dss-alarm-zip-inventory.csv`](../data/gks-dss-alarm-zip-inventory.csv)
 - 型号↔料号：[`data/gks-dss-alarm-bom.csv`](../data/gks-dss-alarm-bom.csv)（0922 有的才当库存；IVS 的 GKS P/N 标了 `in_0922=no`）
+- 可读《报警选型》：[`gks-alarm-selection.md`](gks-alarm-selection.md)、[`data/gks-alarm-selection-bom.csv`](../data/gks-alarm-selection-bom.csv)
 - GKS IVS 原文表：[`data/gks-ivs-selection-20230214.csv`](../data/gks-ivs-selection-20230214.csv)
 - 法语 CCTP：[`cctp-module-plateforme.md`](cctp-module-plateforme.md)、[`cctp-module-anti-intrusion.md`](cctp-module-anti-intrusion.md)
 
@@ -27,7 +28,9 @@ auth_key `1790271722` = **2026-09-24 17:42 UTC 过期**。目录和最新 xlsx �
 | Extreme V4.0 / CyberCity V1.5.0 许可表 | 与 DSS V8.8 **字节完全相同**（同一份 IRM 壳），读不出许可格 |
 | `IVS/IVS Selection List_20230214.xlsx` | **可读**，42 行，有 P/N 列 |
 
-IRM 元数据指向总部 `it-policy.dahuatech.com`，签发 `fan_ziyan@dahuatech.com`。本环境没有 RMS 密钥，**不能解密**。型号和料号以 **0922 + 可读的 IVS 表 + 门禁目录报警彩页** 为准，**不编造选型格里的路数/容量**。
+IRM 元数据指向总部 `it-policy.dahuatech.com`，签发 `fan_ziyan@dahuatech.com`。本环境没有 RMS 密钥，**不能解密**。型号和料号以 **0922 + 可读的 IVS 表 + 门禁目录报警彩页 + 用户另传的可读 `报警选型.xlsx`** 为准，**不编造选型格里的路数/容量**。
+
+可读的套装/有线/烟感/求助柱表见 [`gks-alarm-selection.md`](gks-alarm-selection.md)（**不是** 这份 16 MB IRM）。
 
 查询：
 
@@ -118,6 +121,8 @@ IVSS 是 **带智能卡的 NVR**，料号在 `1.0.01.23`，例如 `DHI-IVSS5108-
 
 0922 里型号字符串带 **868** 的约 233 条，带 **433** 的报警几乎没有（3 条 433 还不是报警主机）。法国无线必须写 **868 MHz**，内部/外部型号带 **`W2(868)`**。不要拿 433 主机出法国图。
 
+可读 `报警选型.xlsx` 把 433 和 915 也标成 European Standard（电源/LTE），**不能**据此出法国 433/915。Hub 2：**EN50131 Grade 2 仅 868**；套装本身无单独证书。套装 = 主机 + `ARD1233-W2` + `ARD323-W2` + `ARA24-W2`。
+
 ### 4.1 命名
 
 | 前缀 | 角色 | 例子 |
@@ -165,11 +170,11 @@ IVSS 是 **带智能卡的 NVR**，料号在 `1.0.01.23`，例如 `DHI-IVSS5108-
 
 无线主机：
 
-| 外部型号 | 料号 |
-|---|---|
-| `DHI-ARC3000H-W2(868)` / `-FW2(868)` / `-GW2(868)` | `1.0.01.19.10560` / `10557` / `10558` |
-| `DHI-ARC3800H-W2(868)` / `-FW2(868)` | `1.0.01.19.10824-9002` / `10806-9001` |
-| 套装 `DHI-ART-ARC3800H-03-FW2(868)` | `1.0.01.19.11086-0001` |
+| 外部型号 | 料号 | 备注 |
+|---|---|---|
+| `DHI-ARC3000H-W2(868)` / `-FW2(868)` / `-GW2(868)` | `1.0.01.19.10560` / `10557` / `10558` | 单机；选型 V3 套装料号 `11083`/`11082`/`11081` **不在 0922** |
+| `DHI-ARC3800H-W2(868)` / `-FW2(868)` | `1.0.01.19.10824-9002` / `10806-9001` | Hub 2 单机 |
+| 套装 `DHI-ART-ARC3800H-03-FW2(868)` | `1.0.01.19.11086-0001` | 选型内部型号带 `-V3`；另有 CAM `11086-0004`、Wi-Fi `11088-0001`、黑色 `-B` `11091`/`11092`。详见 [报警选型](gks-alarm-selection.md) |
 
 有线（门禁目录 59–63 页也有彩页）：
 
@@ -213,8 +218,8 @@ Extreme / CyberCity 许可表打不开，城市超脑不要用本包出图。
 
 ## 7. 还缺
 
-1. **未加密** 的 Alarm 20260804 和 DSS **V8.8** 选型（基础包里的 V8.8 仍是 IRM；容量已用 V8.5 对比表补上）。  
-2. 法国/EUR 可售过滤（868 型号 ≠ 法国都能订）。  
-3. APSAD R82 / CNPP 认证表（ETSI 303 645 ≠ CNPP）。  
+1. GKS Alarm **20260804 全表**仍是 IRM。用户另传的 [`报警选型.xlsx`](gks-alarm-selection.md) 只覆盖套装/有线/烟感/求助柱，没有主机容量。DSS **V8.8** 选型仍加密。  
+2. 法国/EUR 可售过滤（868 型号 ≠ 法国都能订；V3 3000H 套装料号不在 0922）。  
+3. APSAD R82 / CNPP 认证表（ETSI 303 645 ≠ CNPP；Hub 2 Grade 2 只写在套装备注里）。  
 4. Extreme / CyberCity 真表。  
 5. 无线摄像机 2026-06 目录 PDF。
